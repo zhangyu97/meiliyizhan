@@ -1,0 +1,452 @@
+ /*
+* @Author: zhang
+* @Date:   2018-01-07 18:42:47
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-01-11 00:18:10
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 1.1rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+header .left{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.25rem 0 0 0.15rem;
+}
+header .left .iconfont{
+	font-size: 0.5rem;
+	color: #686E73;
+}
+header .center{
+	width: 6rem;
+	height: 1.1rem;
+	display: flex;
+	text-align: center;
+	position: relative;
+}
+header .center .C_box{
+	display: block;
+	width: 3rem;
+	height: 1.1rem;
+	font-size: 0.36rem;
+	color: #5A6064;
+	line-height: 1.1rem;
+	box-sizing: border-box;
+}
+header .center .C_box .border{
+	width: 1rem;
+	height: 0.15rem;
+	background: #FB6A54;
+	position: absolute;
+	left: 0.5rem;
+	bottom: 0;
+}
+header .right{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0.2rem 0.2rem 0 0;
+}
+header .right .iconfont{
+	font-size: 0.6rem;
+	color: #686E73;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 8.85rem;
+	position: relative;
+}
+.banner a{
+	width: 100%;
+	height: 8.85rem;
+}
+.banner a img{
+	width: 100%;
+	height: 8.85rem;
+	position: absolute;
+	top: 0;
+}
+.banner .btn_box{
+	width: 1.5rem;
+	height: 0.2rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0.15rem;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.banner .btn_box .btn{
+	display: block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: rgba(0, 0, 0, .3);
+	border-radius: 50%;
+}
+.banner .btn_box .btn1{
+	background: #F86C64;
+}
+/* banner结束 */
+/* 产品介绍开始 */
+.chanping{
+	width: 100%;
+	height: 2.5rem;
+	padding: 0.2rem 0.16rem 0 0.3rem;
+	border-bottom: 0.01rem solid #F1F1F1;
+	background: #fff;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.chanping p{
+	width: 6.8rem;
+	height: 1.05rem;
+	font-size: 0.42rem;
+	font-family: '隶书';
+	color: #5A6064;
+}
+.chanping .shoucang{
+	width: 1rem;
+	height: 1rem;
+	background: rgba(255, 182, 193, .5);
+	text-align: center;
+	border-radius: 0.2rem;
+}
+.chanping .shoucang a{
+	width: 100%;
+	height: 100%;
+}
+.chanping .shoucang a .iconfont{
+	font-size: 0.6rem;
+	color: rgba(241, 142, 162, .8);
+	line-height: 1.05rem;
+}
+.chanping .jiage{
+	width: 1.8rem;
+	height: 0.8rem;
+	font-size: 0.4rem;
+	color: #FB6A54;
+	font-family: '隶书';
+	text-align: center;
+	line-height: 0.8rem;
+}
+.chanping .xiaoliang{
+	width: 1.8rem;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	color: #A9A9A9;
+	font-family: '隶书';
+	text-align: center;
+	line-height: 0.8rem;
+}
+.baoyou{
+	width: 100%;
+	height: 0.85rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #F1F1F1;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	margin-bottom: 0.25rem;
+	display: flex;
+}
+.baoyou .hezi{
+	width: 2rem;
+	height: 0.85rem;
+	text-align: center;
+}
+.baoyou .hezi .iconfont{
+	font-size: 0.26rem;
+	color: #E2C0CB;
+}
+.baoyou .hezi span{
+	font-size: 0.14rem;
+	color: #808179;
+	line-height: 0.85rem;
+	margin-left: 0.1rem;
+	font-family: '隶书';
+}
+.word{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-bottom: 0.01rem solid #F1F1F1;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	font-size: 0.34rem;
+	font-family: '隶书';
+	color: #808179;
+	line-height: 0.5rem;
+}
+.goumai{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #F1F1F1;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	margin-bottom: 0.2rem;
+}
+.goumai span{
+	font-size: 0.34rem;
+	color: #808179;
+	line-height: 1.2rem;
+	float: left;
+	font-family: '隶书';
+}
+.goumai .youjian{
+	display: block;
+	width: 0.5rem;
+	height: 1.2rem;
+	float: right;
+	margin-right: 0.16rem;
+	text-align: center;
+}
+.goumai .youjian .iconfont{
+	font-size: 0.4rem;
+	color: #808179;
+	line-height: 1.2rem;
+}
+/* 产品介绍结束 */
+/* 大家还买了 */
+.shopping{
+	width: 100%;
+	height: 4.5rem;
+	background: #fff;
+}
+.shopping .shopping_top{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #F1F1F1;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+	margin-bottom: 0.2rem;
+}
+.shopping .shopping_top span{
+	font-size: 0.34rem;
+	color: #808179;
+	font-family: '隶书';
+	line-height: 1.2rem;
+	float: left;
+}
+.shopping .shopping_top .youjian{
+	display: block;
+	width: 0.5rem;
+	height: 1.2rem;
+	float: right;
+	margin-right: 0.16rem;
+	text-align: center;
+}
+.shopping .shopping_top .youjian .iconfont{
+	font-size: 0.4rem;
+	color: #808179;
+	line-height: 1.2rem;
+}
+.shopping_bottom{
+	width: 100%;	
+	height: 3rem;	
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.shopping_bottom .three{
+	display: block;
+	width: 2.45rem;
+	height: 2.67rem;
+	border: 0.01rem solid #F1F1F1;
+	position: relative;
+}
+.shopping_bottom .three img{
+	width: 2.45rem;
+	height: 2.67rem;
+}
+.shopping_bottom .three .ying{
+	width: 2.45rem;
+	height: 0.6rem;
+	background: rgba(0, 0, 0, .2);
+	position: absolute;
+	bottom: 0;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.6rem;
+}
+/* 图片墙 */
+.picture{
+	width: 100%;
+	height: auto;
+}
+.picture a{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+}
+.picture a img{
+	width: 100%;
+	height: auto;
+}
+.ping{
+	width: 100%;
+	height: 6.25rem;
+	padding-left: 0.25rem;
+	border-top: 0.01rem solid #EFEFEF;
+	border-bottom: 0.01rem solid #EFEFEF;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-bottom: 1.2rem;
+}
+.ping_top{
+	width: 100%;
+	height: 1.09rem;
+	border-bottom: 0.01rem solid #EFEFEF;
+	box-sizing: border-box;
+}
+.ping_top .left{
+	padding-left: 0.15rem;
+	box-sizing: border-box;
+	font-size: 0.28rem;
+	color: #808179;
+	line-height: 1.09rem;
+	float: left;
+	font-family: '隶书';
+}
+.ping_top .right{
+	padding-right: 0.25rem;
+	box-sizing: border-box;
+	font-size: 0.34rem;
+	color: #808179;
+	float: right;
+	line-height: 1.09rem;
+	font-family: '隶书';
+}
+.ping_bottom{
+	display: block;
+	width: 100%;
+	height: 2.57rem;
+	border-bottom: 0.02rem solid #EFEFEF;
+	padding: 0.3rem 0.25rem 0 0.12rem;
+	box-sizing: border-box;
+}
+.ping_bottom:last-child{
+	border-bottom: 0;
+}
+.ping_bottom .tou{
+	width: 1.15rem;
+	height: 1.15rem;
+	border-radius: 50%;
+	margin-right: 0.3rem;
+	float: left;
+	overflow: hidden;
+}
+.ping_bottom .tou img{
+	width: 100%;
+	height: 100%;
+}
+.ping_bottom span:nth-child(2){
+	font-size: 0.34rem;
+	color: #808179;
+	font-family: '隶书';
+	float: left;
+	line-height: 1rem;
+}
+.ping_bottom .hao{
+	width: 0.8rem;
+	height: 0.4rem;
+	background: #F86764;
+	font-size: 0.24rem;
+	color: #fff;
+	font-family: '隶书';
+	text-align: center;
+	line-height: 0.3rem;
+	float: left;
+	margin-left: 0.25rem;
+	margin-top: 0.25rem;
+	border-radius: 0.05rem;
+}
+.ping_bottom span:nth-child(4){
+	font-size: 0.34rem;
+	color: #808179;
+	font-family: '隶书';
+	float: right;
+	line-height: 1rem;
+}
+.ping_bottom .hh{
+	width: 100%;
+	height: 1rem;
+	margin-top: 1.18rem;
+}
+.ping_bottom .hh p{
+	font-size: 0.34rem;
+	color: #808179;
+	font-family: '隶书';
+	line-height: 1.18rem;
+}
+.over{
+	width: 100%;
+	height: 1.05rem;
+	background: #fff;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+}
+.over .guwu{
+	display: block;
+	width: 1.67rem;
+	height: 1.05rem;
+	border-right: 0.01rem solid #f1f1f1;
+	box-sizing: border-box;
+	text-align: center;
+}
+.over .guwu .iconfont{
+	font-size: 0.5rem;
+	color: #585858;
+	line-height: 1.05rem;
+}
+.over .kefu{
+	display: block;
+	width: 2.14rem;
+	height: 1.05rem;
+	font-size: 0.3rem;
+	font-family: '隶书';
+	color: #53544F;
+	text-align: center;
+	line-height: 1.05rem;
+}
+.over .kefu .iconfont{
+	font-size: 0.5rem;
+	font-weight: 900;
+	color: #FC9BA2;
+	line-height: 1.05rem;
+}
+.over .jiaru{
+	display: block;
+	width: 2.45rem;
+	height: 1.05rem;
+	background: #FAAF8F;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.05rem;
+	font-family: '隶书';
+}
+.over .liji{
+	display: block;
+	width: 2.25rem;
+	height: 1.05rem;
+	background: #FE6661;
+	font-size: 0.3rem;
+	font-family: '隶书';
+	color: #fff;
+	text-align: center;
+	line-height: 1.05rem;
+}

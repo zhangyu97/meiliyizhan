@@ -1,0 +1,171 @@
+/*
+* @Author: zhang
+* @Date:   2018-01-07 18:42:47
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-01-10 23:06:49
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 1.15rem;
+	background: #fff;
+	display: flex;
+	border-bottom: 0.01rem solid #e5e5e5;
+	box-sizing: border-box;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.fanhui{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin-top: 0.30rem;
+	margin-left: 0.25rem;
+}
+.fanhui a{
+	width: 100%;
+	height: 100%;
+}
+.fanhui a .iconfont{
+	font-size: 0.5rem;
+	color: #505457;
+	text-align: center;
+}
+.sousuo{
+	width: 5rem;
+	height: 0.75rem;
+	background: #eceeed;
+	margin-top: 0.16rem;
+	border-radius: 0.1rem;
+	border: 0;
+	padding-left: 0.2rem;
+	font-size: 0.35rem;
+	color: #015C65; 
+}
+input:focus{
+	outline: none;
+}
+.caidan{
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.2rem;
+	margin-right: 0.32rem;
+}
+.caidan a{
+	width: 100%;
+	height: 100%;
+}
+.caidan a .iconfont{
+	font-size: 0.6rem;
+	color: #505457;
+	text-align: center;
+}
+/* 头部结束 */
+/* nav开始 */
+nav{
+	width: 100%;
+	height: 1rem;
+	background: #ccc;
+	margin-top: 1.15rem;
+	border-bottom: 0.01rem solid #E5E5E5;
+	box-sizing: border-box;
+	display: flex;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+nav ul{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+}
+nav ul li{
+	width: calc(100% / 3);
+	height: 1rem;
+	background: #fff;
+}
+nav ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+nav ul li a span{
+	font-size: 0.24rem;
+	color: #545857;
+	line-height: 1rem;
+}
+/* nav结束 */
+/* 产品开始 */
+.lie{
+	width: 100%;
+	height: auto;
+	margin-top: 2.15rem;
+	background: #fff;
+}
+.liebiao{
+	width: 100%;
+	height: 3rem;
+}
+.lie_box{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 0.01rem solid #E5E5E5;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+}
+.liebiao .lie_box a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.liebiao .lie_box a .left{
+	width: 2.6rem;
+	height: 2.6rem;
+	margin-left: 0.2rem;
+}
+.liebiao .lie_box a .left img{
+	width: 2.6rem;
+	height: 2.6rem;
+}
+.liebiao .lie_box a .right{
+	width: 5.3rem;
+	height: 2.6rem;
+	margin-right: 0.2rem;
+}
+.liebiao .lie_box a .right p{
+	font-size: 0.4rem;
+	color: #686E73;
+	font-family: '隶书';
+	margin: 0.15rem 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.liebiao .lie_box a .right span{
+	font-size: 0.22rem;
+	color: #555F60;
+	font-family: '隶书';
+}
+.liebiao .lie_box a .right .jiage{
+	font-size: 0.46rem;
+	color: #FC7E8C;
+	font-weight: bold;
+	margin-top: 0.3rem;
+	font-family: '隶书';
+}
+/* 产品结束 */
+.cha{
+	display: block;
+	width: 100%;
+	height: 1rem;
+	background-color: #F6F6F6;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.26rem;
+	color: #555F60;
+	font-family: '隶书';
+}

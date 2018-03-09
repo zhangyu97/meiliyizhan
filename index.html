@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https:////at.alicdn.com/t/font_528697_6tjyh2v4d4vaemi.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="shortcut icon" href="img/logo.icon">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<script src="js/rem.js"></script>
 </head>
 <body>
@@ -28,29 +29,30 @@
 <!-- 导航结束 -->
 <!-- banner开始 -->
 	<div class="banner">
-		<a href="">
-			<img src="img/banner3.jpg" alt="">
-		</a>
-		<a href="">
-			<img src="img/banner.jpg" alt="">
-		</a>
-		<a href="">
-			<img src="img/banner5.jpg" alt="">
-		</a>
-		<a href="">
-			<img src="img/banner4.jpg" alt="">
-		</a>
-		<a href="">
-			<img src="img/banner4.jpg" alt="">
-		</a>
-		<div class="button">
-			<ul class="button_box">
-				<li class="an"><a href=""></a></li>
-				<li class="an"><a href=""></a></li>
-				<li class="an"><a href=""></a></li>
-				<li class="an"><a href=""></a></li>
-				<li class="an"><a href=""></a></li>
-			</ul>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/banner3.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner4.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner1.jpg" alt="">
+				</div>
+				<!--<div class="button">-->
+					<!--<ul class="button_box">-->
+						<!--<li class="an"></li>-->
+						<!--<li class="an"></li>-->
+						<!--<li class="an"></li>-->
+						<!--<li class="an"></li>-->
+						<!--<li class="an"></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+			</div>
 		</div>
 	</div>
 <!-- banner结束 -->
@@ -322,3 +324,22 @@
 	</div>
 </body>
 </html>
+ <script src="js/swiper.min.js"></script>
+ <script>
+     var swiper = new Swiper('.swiper-container', {
+         spaceBetween: 30,
+         centeredSlides: true,
+         autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
+         },
+         pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+         },
+         navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+         },
+     });
+ </script>

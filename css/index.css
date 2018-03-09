@@ -64,20 +64,18 @@ input:focus{
 /* banner开始 */
 .banner{
 	width: 100%;
-	height: 4.35rem;
+	height: 3.55rem;
 	margin-top: 1.15rem;
 	position: relative;
+	overflow: hidden;
 }
-.banner a{
+.swiper-slide{
 	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
-.banner a img{
+.swiper-slide img{
 	width: 100%;
-	height: 100%;
+	height: 3.55rem;
 }
 .button{
 	width: 100%;
@@ -100,11 +98,6 @@ input:focus{
 }
 .button .button_box .an:nth-child(2){
 	background: rgba(255, 127, 87, .7);
-}
-.button .button_box .an a{
-	display: block;
-	width: 0.18rem;
-	height: 0.18rem;
 }
 /* banner结束 */
 /* 列表开始 */
